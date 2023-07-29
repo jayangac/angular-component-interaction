@@ -1,0 +1,96 @@
+<!-- <ul class="list-group">
+    <li class="list-group-item">
+      <a [routerLink]="'/interpolation'">String interpolation</a>
+    </li>
+    <li class="list-group-item">
+      <a [routerLink]="'/propertybinding'">Property binding</a>
+    </li>
+    <li class="list-group-item">
+        <a [routerLink]="'/eventbinding'">Event bindings</a>
+      </li>
+    
+  </ul> -->
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Bindings
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="'/interpolation'">String interpolation</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="'/propertybinding'">Property binding</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/eventbinding'">Event bindings</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/twowaybinding'">Two way bindings</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/splittwowaybinding'">Split two way bindings</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/gettersandsetters'">Getters and setters</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/viewchilddecorator'">View child decorator</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+
+
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Parent-Child-communication
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="'/parentchildinput'">Parent child - Input</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" [routerLink]="'/gettersandsettersparent'">Getters and setters</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/parentonchanges'">Parent on changes</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li> <a class="dropdown-item" [routerLink]="'/parenttemplate'">Parent template reference variable</a></li>
+            <!--<li><hr class="dropdown-divider"></li>
+              <li> <a class="dropdown-item" [routerLink]="'/splittwowaybinding'">Split two way bindings</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li> <a class="dropdown-item" [routerLink]="'/gettersandsetters'">Getters and setters</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li> <a class="dropdown-item" [routerLink]="'/viewchilddecorator'">View child decorator</a></li> -->
+            <!-- <li><hr class="dropdown-divider"></li> -->
+
+
+          </ul>
+        </li>
+
+
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
